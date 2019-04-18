@@ -1,13 +1,13 @@
 # Team Generator
 > :star: an actions on google application which can be used to easily generate teams by just using voice commands.
 ___
-# used technologies
+# Used technologies
 - **Dialogflow**: Easy and self explanatory ML interface
 - **Firebase functions**: Use Node.JS code without worrying about servers / and additional costs
 - **Actions on Google**: You can test and publish your Action easily
 - **TypeScript**
 ___
-# getting started
+# Getting started
 **TL;DR?**
 Those instructions are specefically meant to be very detailed to give absolute newbies a place to start. 
 If you happened to have some experience with the used technologies, you will be able to skim the instructions whilst understanding most of it.
