@@ -1,5 +1,5 @@
 # Team Generator
-> :aquarius: an actions on google application which can be used to easily generate teams by just using voice commands.
+> :star: an actions on google application which can be used to easily generate teams by just using voice commands.
 ___
 # used technologies
 - **Dialogflow**: Easy and self explanatory ML interface
@@ -11,15 +11,15 @@ ___
 **TL;DR?**
 Those instructions are specefically meant to be very detailed to give absolute newbies a place to start. 
 If you happened to have some experience with the used technologies, you will be able to skim the instructions whilst understanding most of it.
-###0. Create a Dialogflow account
+### 0. Create a Dialogflow account
 
   * Visit the [docs](https://dialogflow.com/docs/getting-started/create-account) if you are not sure how.
 ___
-###1. Create a new agent in Dialogflow
+### 1. Create a new agent in Dialogflow
 
   * Visit the [docs](https://dialogflow.com/docs/getting-started/first-agent) if you are not sure how (you only need to add a new agent. You do not have to create any intents).
 ___
-###2. Import your agent/project into actions on google
+### 2. Import your agent/project into actions on google
 
   1. Visit the [actions on google console](https://console.actions.google.com/)
   2. Log in using your Google Account
@@ -28,7 +28,7 @@ ___
   5. Choose ```Conversational``` at the very bottom
   6. Choose an invokation of your liking (i.e. mine is ```generate teams```)
 ___
-###3. Import the intents
+### 3. Import the intents
 
   1. Click the settings symbol in the top left corner
   2. Choose ```Export and Import```
@@ -37,7 +37,7 @@ ___
   5. Type ```RESTORE``` in the text input (It has to be upper case, I've tested it. Otherwise it wouldn't sound that cool, right? :sunglasses:) and ckick the ```restore``` button
   6. Click ```done``` after it is finished.
 ___
-###4. Setup Firebase functions
+### 4. Setup Firebase functions
 
   1. Install the dependencies using yarn or npm
   ```
@@ -91,7 +91,7 @@ ___
   ```
   **This may take a while...**
   ___
-###5. Set up fulfillment
+### 5. Set up fulfillment
   1. Navigate to your Functions in your Firebase Project
   2. Copy the URL in the ```Trigger``` coloumn
   3. Open you Dialogflow agent
@@ -113,8 +113,8 @@ or with npm:
 cd functions/
 npm run deploy
 ```
-###Troubleshooting
-####I cannot test the intents in the Actions on Google Simulator
+### Troubleshooting
+#### I cannot test the intents in the Actions on Google Simulator
   1. Wait! Actions on Google is sometimes taking its time.
   2. Repeat the ML training step in 5.8 - 5.9
   ___
