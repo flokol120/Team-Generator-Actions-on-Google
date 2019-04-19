@@ -2,10 +2,10 @@
 > :star: an actions on google application which can be used to easily generate teams by just using voice commands.
 ___
 # Used technologies
-- **Dialogflow**: Easy and self explanatory ML interface
-- **Firebase functions**: Use Node.JS code without worrying about servers / and additional costs
-- **Actions on Google**: You can test and publish your Action easily
-- **TypeScript**
+- [**Dialogflow**](https://dialogflow.com/): Easy and self explanatory ML interface
+- [**Firebase functions**](https://firebase.google.com/): Use Node.JS code without worrying about servers / and additional costs
+- [**Actions on Google**](https://developers.google.com/actions/): You can test and publish your Action easily
+- [**TypeScript**](https://www.typescriptlang.org/)
 ___
 # Getting started
 **TL;DR?**
