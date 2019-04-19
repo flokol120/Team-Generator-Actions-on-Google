@@ -67,18 +67,13 @@ ___
   npm run init
   ```
   9. Choose ```TypeScript``` using the arrow keys and hit ```ENTER```
-  10. Hit ```ENTER``` again
-  11. Aaaand ```ENTER``` again
-  12. You may have guessed it by now: ```ENTER!```
-  13. Another ```ENTER```...
-  14. ```ENTER```
-  15. ```ENTER```
-  16. type ```n``` and then ```ENTER```
-  17. Click the settings icon in the top left corner inside your project
-  18. Select ```project settings```
-  19. Copy your ```Project-ID```
-  20. Open up the .firebaserc file and replace the placeholder with your ```Project-ID```
-  21. run using yarn
+  10. **Hit ```ENTER``` 6 times** 
+  11. type ```n``` and then ```ENTER```
+  12. Click the settings icon in the top left corner inside your project
+  13. Select ```project settings```
+  14. Copy your ```Project-ID```
+  15. Open up the .firebaserc file and replace the placeholder with your ```Project-ID```
+  16. run using yarn
   ```
   cd functions/
   yarn deploy
