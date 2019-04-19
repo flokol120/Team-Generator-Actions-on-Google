@@ -2,15 +2,15 @@
 > :star: an actions on google application which can be used to easily generate teams by just using voice commands.
 ___
 # Used technologies
-- [**Dialogflow**](https://dialogflow.com/): Easy and self explanatory ML interface
-- [**Firebase functions**](https://firebase.google.com/): Use Node.JS code without worrying about servers / and additional costs
+- [**Dialogflow**](https://dialogflow.com/): Easy and self-explanatory ML interface
+- [**Firebase functions**](https://firebase.google.com/): Use Node.js code without worrying about servers / and additional costs
 - [**Actions on Google**](https://developers.google.com/actions/): You can test and publish your Action easily
 - [**TypeScript**](https://www.typescriptlang.org/)
 ___
 # Getting started
 **TL;DR?**
-Those instructions are specefically meant to be very detailed to give absolute newbies a place to start. 
-If you happened to have some experience with the used technologies, you will be able to skim the instructions whilst understanding most of it.
+Those instructions are specifically meant to be very detailed to give absolute newbies a place to start. 
+If you happen to have some experience with the used technologies, you will be able to skim the instructions whilst understanding most of it.
 ### 0. Create a Dialogflow account
 
   * Visit the [docs](https://dialogflow.com/docs/getting-started/create-account) if you are not sure how.
@@ -34,7 +34,7 @@ ___
   2. Choose ```Export and Import```
   3. Choose ```restore from zip```
   4. Drag and Drop the ```dialog-flow-intents.zip``` (or click ```select file```)
-  5. Type ```RESTORE``` in the text input (It has to be upper case, I've tested it. Otherwise it wouldn't sound that cool, right? :sunglasses:) and ckick the ```restore``` button
+  5. Type ```RESTORE``` in the text input (It has to be upper case, I've tested it. Otherwise it wouldn't sound that cool, right? :sunglasses:) and click the ```restore``` button
   6. Click ```done``` after it is finished.
 ___
 ### 4. Setup Firebase functions
